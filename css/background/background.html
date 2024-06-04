@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        height: 150px;
+        font-size: 36px;
+        color: white;
+      }
+
+      .background-color {
+        background-color: tomato;
+      }
+
+      .background-image {
+        background-image: url(../assets/images/bg.jpg);
+      }
+
+      .background-repeat {
+        height: 550px;
+        background-color: tomato;
+        background-image: url(../assets/images/bg.jpg);
+        background-repeat: no-repeat;
+      }
+
+      .background-attachment-fixed {
+        background-attachment: fixed;
+        height: 550px;
+        background-color: rgb(226, 207, 0);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+      }
+
+      .background-attachment-local {
+        background-attachment: local;
+        height: 550px;
+        background-color: rgb(89, 255, 71);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+      }
+
+      .background-attachment-scroll {
+        background-attachment: scroll;
+        height: 550px;
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+      }
+
+      .background-position {
+        height: 550px;
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        /* background-position: 50% 20%; */
+        background-position: center right;
+      }
+
+      .background-clip-border-box {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        border: 15px dashed green;
+        margin: 20px;
+        padding: 50px;
+      }
+
+      .background-clip-content-box {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+        background-clip: content-box;
+        border: 15px dashed green;
+        margin: 20px;
+        padding: 50px;
+      }
+
+      .background-clip-padding-box {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+        border: 15px dashed green;
+        margin: 20px;
+        padding: 50px;
+        background-clip: padding-box;
+      }
+
+      .background-origin-border-box {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+        border: 15px dashed green;
+        margin: 20px;
+        padding: 50px;
+        background-origin: border-box;
+      }
+
+      .background-origin-content-box {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+        border: 15px dashed green;
+        margin: 20px;
+        padding: 50px;
+        background-origin: content-box;
+      }
+
+      .background-origin-padding-box {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/bg1.jfif);
+        background-repeat: no-repeat;
+        border: 15px dashed green;
+        margin: 20px;
+        padding: 50px;
+        background-origin: padding-box;
+      }
+
+      .background-size-contain {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/images.jfif);
+        background-repeat: no-repeat;
+        border: 15px dashed green;
+        margin: 20px;
+        background-size: contain;
+      }
+
+      .background-size-cover {
+        background-color: rgb(71, 181, 255);
+        background-image: url(../assets/images/images.jfif);
+        background-repeat: no-repeat;
+        border: 15px dashed green;
+        margin: 20px;
+        background-size: cover;
+      }
+
+      /* .background-shorthand{ background-shorthand: } */
+    </style>
+  </head>
+
+  <body>
+    <h2>Backgrounds</h2>
+
+    <ul>
+      <li>background-color</li>
+      <li>background-image</li>
+      <li>background-repeat</li>
+      <li>background-attachment</li>
+      <li>background-position</li>
+      <li>background (shorthand property)</li>
+      <li>background-clip</li>
+      <li>background-origin</li>
+      <li>background-size</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th>
+            <p dir="ltr"><span>Background Property</span></p>
+          </th>
+          <th>
+            <p dir="ltr"><span>Description</span></p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>
+            <p dir="ltr">
+              <a
+                href="https://www.geeksforgeeks.org/css-background-color-property/#:~:text=The%20background%2Dcolor%20property%20in,to%20read%20for%20the%20user."
+                ><span>CSS Background-color Property</span></a
+              >
+            </p>
+          </th>
+          <td>
+            <p dir="ltr">
+              <span
+                >The background-color property in CSS is used to specify the
+                background color of an element.</span
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p dir="ltr">
+              <a
+                href="https://www.geeksforgeeks.org/css-background-image-property/"
+                ><span>CSS Background-image Property</span></a
+              >
+            </p>
+          </th>
+          <td>
+            <p dir="ltr">
+              <span
+                >The background-image property is used to set one or more
+                background images to an element.</span
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p dir="ltr">
+              <a
+                href="https://www.geeksforgeeks.org/css-background-repeat-property/#:~:text=The%20background%2Drepeat%20property%20in,will%20be%20repeated%20or%20not.&amp;text=The%20last%20image%20will%20be,fit%20in%20the%20browser%20window."
+                ><span>CSS Background-repeat Property</span></a
+              >
+            </p>
+          </th>
+          <td>
+            <p dir="ltr">
+              <span
+                >The background-repeat property in CSS is used to repeat the
+                background image both horizontally and vertically.</span
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p dir="ltr">
+              <a
+                href="https://www.geeksforgeeks.org/css-background-attachment-property/#:~:text=The%20property%20background%2Dattachment%20property,applied%20to%20all%20HTML%20elements."
+                ><span>CSS Background-attachment Property</span></a
+              >
+            </p>
+          </th>
+          <td>
+            <p dir="ltr">
+              <span
+                >The background-attachment property in CSS is used to specify
+                the kind of attachment of the background image with respect to
+                its container.</span
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p dir="ltr">
+              <a
+                href="https://www.geeksforgeeks.org/css-background-position-property/"
+                ><span>CSS Background-position Property</span></a
+              >
+            </p>
+          </th>
+          <td>
+            <p dir="ltr">
+              <span
+                >In CSS body-position property is mainly used to set an image at
+                a certain position.</span
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p>
+              <a
+                href="https://www.geeksforgeeks.org/css-background-origin-property/"
+                ><span>CSS Background-origin Property</span></a
+              ><span> </span>
+            </p>
+          </th>
+          <td>
+            <p dir="ltr">
+              <span
+                >The background-origin is a property defined in CSS which helps
+                in adjusting the background image of the webpage.</span
+              >
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <p>
+              <a
+                href="https://www.geeksforgeeks.org/css-background-clip-property/"
+                ><span>CSS Background-clip Property</span></a
+              ><span> </span>
+            </p>
+          </th>
+          <td>
+            <p dir="ltr">
+              <span
+                >The background-clip property in CSS is used to define how to
+                extend the background (color or image) within an element.</span
+              >
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="box background-color">background-color</div>
+    <div class="box background-image">background-image</div>
+    <div class="box background-repeat">
+      background-repeat
+      <ol>
+        <li>
+          repeat: This property is used to repeat the background image both
+          horizontally and vertically. The last image will be clipped if it is
+          not fit in the browser window.
+        </li>
+        <li>
+          repeat-x: This property is used to repeat the background image
+          horizontally.
+        </li>
+        <li>
+          repeat-y: This property is used to set the background image repeated
+          only vertically.
+        </li>
+        <li>
+          no-repeat: This property does not repeat the background image. It
+          displays the background image only once.
+        </li>
+      </ol>
+    </div>
+    <div class="box background-repeat-x">background-repeat-x</div>
+    <div class="box background-attachment-fixed">
+      background-attachment-fixed
+    </div>
+    <div class="box background-attachment-local">
+      background-attachment-local
+    </div>
+    <div class="box background-attachment-scroll">
+      background-attachment-scroll
+    </div>
+    <div class="box background-position">background-position</div>
+    <div class="box background-shorthand">background-shorthand</div>
+    <div class="box background-clip-border-box">background-clip-border-box</div>
+    <div class="box background-clip-content-box">
+      background-clip-content-box
+    </div>
+    <div class="box background-clip-padding-box">
+      background-clip-padding-box
+    </div>
+    <div class="box background-origin-border-box">
+      background-origin-border-box
+    </div>
+    <div class="box background-origin-content-box">
+      background-origin-content-box
+    </div>
+    <div class="box background-origin-padding-box">
+      background-origin-padding-box
+    </div>
+    <div class="box background-size-contain">background-size-contain</div>
+    <div class="box background-size-cover">background-size-cover</div>
+  </body>
+</html>

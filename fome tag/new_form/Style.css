@@ -1,0 +1,48 @@
+.body{
+        border: 1px solid;
+        height: 40rem;
+        width: 90rem;
+        margin: 0 auto;
+        background-color: cadetblue;
+}
+.border{
+    border: 1px solid;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+.h5{
+    text-align: center;
+}
+.age{
+    margin: 12px;
+}
+.data{
+    
+    margin: 12px 0;
+}
+.data-1{
+    margin: 0 0 0 22rem 
+}
+.option{
+    margin: 12px 0 0 6rem;
+}
+.ad{
+    margin: 15px 0 0 7.7rem;
+}
+.as{
+    margin-left: 13.4rem;
+}
+.fcc-option{
+    margin-left: 12.3rem;
+    margin-top: 25px;
+}
+.checkbox1{
+    margin: 20px 0 0 7rem;
+}
+.checkbox2{
+    margin: 0 0 0 15.7rem;
+}
+.submit{
+    margin: 20px 0 0 23rem;
+}

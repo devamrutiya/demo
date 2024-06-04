@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a[title] {
+            color: rgb(87, 128, 0);
+        }
+
+        a[href="https://dhwayitcareer.com"] {
+            color: rgb(0, 9, 128);
+            font-size: 20px;
+        }
+
+        a[href*="example"] {
+            font-size: 2em;
+        }
+
+        a[href$=".org" i] {
+            font-style: italic;
+        }
+
+        /* <a> elements whose class attribute contains the word "logo" */
+        a[class~="logo"] {
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <a href="#">Anchor without title</a>
+    <a href="#" title="hint">Anchor with title</a>
+    <a href="https://dhwayitcareer.com" title="hint">Anchor with title</a>
+    <a href="https://example.com" title="hint">Anchor with title</a>
+    <a href="https://example.org" title="hint">Anchor with title</a>
+    <a href="https://example.org" class="logo" title="hint">Anchor with title</a>
+
+    <pre>
+/* <a> elements with a title attribute */
+    a[title] {
+        color: purple;
+    }
+    
+    /* <a> elements with an href matching "https://example.org" */
+    a[href="https://example.org"]
+    {
+        color: green;
+    }
+    
+    /* <a> elements with an href containing "example" */
+    a[href*="example"] {
+        font-size: 2em;
+    }
+    
+    /* <a> elements with an href ending ".org", case-insensitive */
+    a[href$=".org" i] {
+        font-style: italic;
+    }
+    
+    /* <a> elements whose class attribute contains the word "logo" */
+    a[class~="logo"] {
+        padding: 2px;
+    }
+    
+    </pre>
+
+
+</body>
+
+</html>

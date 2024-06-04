@@ -1,0 +1,76 @@
+.body{
+    width: 60%;
+    background-color: orange;
+    margin: 0 auto;
+    padding: 40px 0 40px 0;
+}
+.main{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0 30px 0;
+}
+.h1-h5{
+    text-align: center;
+}
+.input{
+    margin-left: 10PX;
+}
+.all1-div{
+    margin-left: 21rem;
+    margin-top: 15px;
+}
+.all2-div{
+    margin-left: 20.7rem;
+    margin-top: 15px;
+}
+.all3-div{
+    margin-left: 16.5rem;
+    margin-top: 15px;
+}
+.all4-div{
+    margin-top: 15px;
+    margin-left: 5.2rem;
+    display: flex;
+    align-items: flex-start;
+}
+.option{
+    padding-right: 8.3rem;
+    padding-bottom: 1rem;
+    margin-left: 11.3PX;   
+}
+.all5-div{
+    margin-top: 15px;
+    margin-left: 9rem;
+    display: flex;
+    align-items: flex-start;
+}
+.textarea{
+    /* padding-right: 8.3rem; */
+    /* padding-bottom: 1rem; */
+    margin-left: 11.3PX;   
+}
+.input1{
+    margin-left: 13.6rem;
+    margin-top: 15px;
+}
+.all-input{
+    /* margin-top: 15px; */
+    margin-left: 24.3rem;
+}
+.radio1{
+    margin-top: 15px;
+    margin-left: 10.7rem;
+}
+.radio2{
+    margin-left: 24.2rem;
+}
+.submit{
+    margin-left: 19rem;
+    margin-top: 15px;
+}
+.submit1{
+    padding-right: 5rem;
+    font-size: larger ;
+}

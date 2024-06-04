@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        height: 100px;
+        border: solid 2px wheat;
+        text-align: center;
+      }
+      .box-si {
+        border: solid 2px wheat;
+        text-align: center;
+      }
+      section {
+        width: 1000px;
+        background-color: black;
+        margin: 30px auto 0 auto;
+        padding: 10px 10px;
+        display: grid;
+        grid-template-areas:
+          "boxo boxt"
+          "boxth boxfo";
+        row-gap: 5px;
+        column-gap: 10px;
+      }
+      .box1 {
+        grid-area: boxo;
+        background-color: orangered;
+      }
+      .box2 {
+        grid-area: boxt;
+        background-color: rgb(56, 175, 56);
+      }
+      .box3 {
+        grid-area: boxth;
+        background-color: red;
+      }
+      .box4 {
+        grid-area: boxfo;
+        background-color: rgb(37, 207, 125);
+        display: grid;
+        grid-template-areas:
+          "boxon boxon"
+          "boxto boxthr";
+      }
+      .box4-1 {
+        grid-area: boxon;
+        background-color: rgb(0, 255, 170);
+      }
+      .box4-2 {
+        grid-area: boxto;
+        background-color: rgb(0, 255, 21);
+      }
+      .box4-3 {
+        grid-area: boxthr;
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="box1 box">1</div>
+      <div class="box2 box">2</div>
+      <div class="box3 box">3</div>
+      <div class="box4 box">
+        <div class="box4-1 box-si">4-1</div>
+        <div class="box4-2 box-si">4-2</div>
+        <div class="box4-3 box-si">4-3</div>
+      </div>
+    </section>
+  </body>
+</html>

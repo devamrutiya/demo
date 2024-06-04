@@ -1,0 +1,68 @@
+
+.main_box{
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    box-shadow: 3px 3px 5px 5px gray;
+    margin: 30px;
+    border-radius: 10px;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.first_half{
+    position: relative;
+    border: 0 solid black;
+    height: 40%;
+    background-color: rgb(180, 179, 179);
+    border-radius: 10px 10px 0 0;
+}
+.photo{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.sec_half{
+    background-color: gray;
+    height: 60%;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+}
+.name_box{
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    height: 35%;
+    
+    
+}
+.name{
+    color: white;
+}
+.possition{  
+    color: rgb(219, 219, 223);
+}
+.dic{
+    line-height: 40px;
+    text-align: justify;
+    padding: 10px 15px 15px 15px;
+    font-size: 28px;
+}
+.footer{
+    background-color: rgb(43, 42, 42);
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+.icon{
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+}
+.i{
+    width: 30%;
+}

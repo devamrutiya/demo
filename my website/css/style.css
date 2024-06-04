@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(219, 217, 217);
+}
+.school{
+    color: rgba(0, 0, 0, 0.685);
+}
+.c{
+    font-size: 65px;
+}
+.p{
+    font-size: 65px;
+
+}
+.i{
+    font-size: 65px;
+
+}
+.h{
+    font-size: 49px;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.759);
+    text-align: left;
+}
+.nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+.nav ul li{
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 21px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li:hover{
+    background: rgba(250, 251, 251, 0.416);
+    border-radius: 90px;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    justify-content: center;  
+    background-color: rgb(154, 154, 154);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 25px;
+    margin-top: 520px;  
+}
+.sa{
+    border: 6px inset black;
+    background-color: #fff;
+}
+.sa .as .sd{
+    font-size: 19px;
+    border: 3px inset;
+}
+.sa .as .sd:hover{
+    background-color: rgba(255, 255, 0, 0.903);
+}
+.sa .as .sd a{
+    text-decoration: none;
+    color: #000;
+}
+.sa .as .sd a:hover{
+    background-color: #fff;
+}
+iframe{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: -29px;
+    height: 600px;
+    width: 900px;
+    filter: invert(90%);
+}
+.contact{
+    border: 5px inset;
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 10px -5px 15px 0 gray;
+}
+.h1{
+    margin-left: -65%;
+    font-size: 40px;
+    color: white;
+}
+.zx{
+    width: 130%;
+    height: 45px;
+    margin-left: -130%;
+}
+.xz{
+    width: 130%;
+    height: 45px;
+    margin-left: -130%;
+} 
+.zz{
+    width: 130%;
+    height: 45px;
+    margin-left: -130%;
+}
+.textarea{
+    width: 130%;
+    height: 100px;
+    margin-left: -130%;
+}
+.send{
+    width: 100px;
+    height: 40px;
+    margin-left: -37%;
+    background-color: rgb(73, 248, 73);
+    color: white;
+    margin-bottom: 90px;
+}
+.send:hover{
+    border-radius: 30px;
+    background-color: rgb(38, 240, 149);
+}
+.fonts h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 150px;
+}
